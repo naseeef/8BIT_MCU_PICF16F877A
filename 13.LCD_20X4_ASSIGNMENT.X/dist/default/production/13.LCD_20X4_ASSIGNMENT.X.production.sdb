@@ -1,0 +1,89 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"22 C:\Users\Naseef\Documents\MPLABXProjects\13.LCD_20X4_ASSIGNMENT.X\main.c
+[v _LCD_command LCD_command `(i  1 e 2 0 ]
+"30
+[v _LCD_data LCD_data `(i  1 e 2 0 ]
+"39
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"49
+[v _main main `(v  1 e 1 0 ]
+"217 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1376
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1438
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"2709
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2712
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"49 C:\Users\Naseef\Documents\MPLABXProjects\13.LCD_20X4_ASSIGNMENT.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"80
+[v main@i_60 i `i  1 a 2 67 ]
+"74
+[v main@i_57 i `i  1 a 2 65 ]
+"68
+[v main@i_54 i `i  1 a 2 63 ]
+"62
+[v main@i_51 i `i  1 a 2 61 ]
+"56
+[v main@i i `i  1 a 2 59 ]
+"55
+[v main@a a `[14]uc  1 a 14 0 ]
+"73
+[v main@d d `[13]uc  1 a 13 40 ]
+"67
+[v main@c c `[13]uc  1 a 13 27 ]
+"61
+[v main@b b `[13]uc  1 a 13 14 ]
+"79
+[v main@e e `[6]uc  1 a 6 53 ]
+"54
+[v main@F884 F884 `[14]uc  1 s 14 F884 ]
+"60
+[v main@F887 F887 `[13]uc  1 s 13 F887 ]
+"66
+[v main@F890 F890 `[13]uc  1 s 13 F890 ]
+"72
+[v main@F893 F893 `[13]uc  1 s 13 F893 ]
+"78
+[v main@F896 F896 `[6]uc  1 s 6 F896 ]
+"85
+} 0
+"39
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"47
+} 0
+"22
+[v _LCD_command LCD_command `(i  1 e 2 0 ]
+{
+[v LCD_command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_command@cmd cmd `uc  1 a 1 wreg ]
+"24
+[v LCD_command@cmd cmd `uc  1 a 1 2 ]
+"29
+} 0
+"30
+[v _LCD_data LCD_data `(i  1 e 2 0 ]
+{
+[v LCD_data@data data `uc  1 a 1 wreg ]
+[v LCD_data@data data `uc  1 a 1 wreg ]
+"32
+[v LCD_data@data data `uc  1 a 1 2 ]
+"37
+} 0
