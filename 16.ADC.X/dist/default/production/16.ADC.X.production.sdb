@@ -1,0 +1,225 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"30 C:\Users\Naseef\Documents\MPLABXProjects\16.ADC.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"59
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"65
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+"80
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+"95
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"106
+[v _LCD_num LCD_num `(v  1 e 1 0 ]
+"151
+[v _LCD_num1 LCD_num1 `(v  1 e 1 0 ]
+"169
+[v _LCD_float LCD_float `(v  1 e 1 0 ]
+"179
+[v _LCD_heads LCD_heads `(v  1 e 1 0 ]
+"217 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1153
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1160
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1376
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1438
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"2223
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2230
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2583
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2709
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2712
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"30 C:\Users\Naseef\Documents\MPLABXProjects\16.ADC.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"37
+[v main@ADC_VALUE ADC_VALUE `ui  1 a 2 38 ]
+"57
+} 0
+"106
+[v _LCD_num LCD_num `(v  1 e 1 0 ]
+{
+"108
+[v LCD_num@remainder remainder `i  1 a 2 12 ]
+[v LCD_num@result1 result1 `i  1 a 2 10 ]
+[v LCD_num@digit2 digit2 `i  1 a 2 8 ]
+[v LCD_num@digit1 digit1 `i  1 a 2 6 ]
+[v LCD_num@digit3 digit3 `i  1 a 2 4 ]
+[v LCD_num@result result `i  1 a 2 2 ]
+[v LCD_num@digit4 digit4 `i  1 a 2 0 ]
+"106
+[v LCD_num@val val `ui  1 p 2 9 ]
+"149
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"95 C:\Users\Naseef\Documents\MPLABXProjects\16.ADC.X\main.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"104
+} 0
+"179
+[v _LCD_heads LCD_heads `(v  1 e 1 0 ]
+{
+"194
+[v LCD_heads@i_108 i `i  1 a 2 29 ]
+"188
+[v LCD_heads@i i `i  1 a 2 27 ]
+"185
+[v LCD_heads@h2 h2 `[15]uc  1 a 15 0 ]
+"184
+[v LCD_heads@h1 h1 `[12]uc  1 a 12 15 ]
+"180
+[v LCD_heads@F924 F924 `[12]uc  1 s 12 F924 ]
+"184
+[v LCD_heads@F926 F926 `[15]uc  1 s 15 F926 ]
+"198
+} 0
+"65
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v LCD_Command@cmnd cmnd `uc  1 a 1 wreg ]
+[v LCD_Command@cmnd cmnd `uc  1 a 1 wreg ]
+"67
+[v LCD_Command@cmnd cmnd `uc  1 a 1 2 ]
+"78
+} 0
+"169
+[v _LCD_float LCD_float `(v  1 e 1 0 ]
+{
+"171
+[v LCD_float@volt volt `ui  1 a 2 34 ]
+"169
+[v LCD_float@val val `ui  1 p 2 32 ]
+"177
+} 0
+"151
+[v _LCD_num1 LCD_num1 `(v  1 e 1 0 ]
+{
+"153
+[v LCD_num1@remainder remainder `ui  1 a 2 30 ]
+"154
+[v LCD_num1@result1 result1 `ui  1 a 2 28 ]
+"153
+[v LCD_num1@result result `ui  1 a 2 26 ]
+[v LCD_num1@digit3 digit3 `ui  1 a 2 24 ]
+[v LCD_num1@digit2 digit2 `ui  1 a 2 22 ]
+[v LCD_num1@digit1 digit1 `ui  1 a 2 20 ]
+"151
+[v LCD_num1@val val `l  1 p 4 14 ]
+[v LCD_num1@calb_val calb_val `i  1 p 2 18 ]
+"167
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 9 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"41
+} 0
+"80 C:\Users\Naseef\Documents\MPLABXProjects\16.ADC.X\main.c
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+{
+[v LCD_Char@data data `uc  1 a 1 wreg ]
+[v LCD_Char@data data `uc  1 a 1 wreg ]
+"82
+[v LCD_Char@data data `uc  1 a 1 2 ]
+"93
+} 0
+"59
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"63
+} 0
